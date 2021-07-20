@@ -1,0 +1,59 @@
+* {
+    font-weight: normal;
+}
+
+.list-inline {
+    display: flex;
+}
+
+.list-inline li {
+    flex: 1;
+}
+
+.navbar-nav {
+    text-align: end;
+}
+
+#banner {
+    /* position: absolute;
+    bottom: .5em;
+    right: .5em; */
+    margin-bottom: .5em;
+    vertical-align: bottom;
+    text-align: end;
+}
+
+/* .card-img-overlay {
+    margin-bottom: .5em;
+    margin-left: 0;
+    text-align: start;
+    font-weight: normal;
+} */
+
+.work img {
+    border: .3em solid #17a2b8!important    
+}
+
+.work {
+    opacity: 0.5;
+}
+
+.work:hover {
+    opacity: 1;
+}
+
+.card-title {
+    vertical-align: bottom;
+
+}
+
+.col-md-1 {
+    border-right: .2em solid black;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
